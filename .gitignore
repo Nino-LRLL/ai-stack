@@ -1,0 +1,23 @@
+# Secrets — jamais commités
+.env
+*.env
+.env.*
+!.env.example
+
+# Clés et tokens
+*.pem
+*.key
+id_rsa
+id_ed25519
+
+# État local
+*.log
+/tmp/
+.DS_Store
+
+# Outils IA
+.venv/
+node_modules/
+target/
+build/
+dist/
