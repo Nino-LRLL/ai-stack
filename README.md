@@ -17,7 +17,13 @@
 
 ---
 
-## 🎬 Ça donne quoi ?
+## 🎬 Ça donne quoi ? *(démo réelle — script exécuté sur Windows)*
+
+<img src="demo.gif" alt="ai-stack en action — installation/config complète en une commande" width="100%">
+
+Le script capture ton matériel, installe Ollama + les modèles adaptés à ta
+RAM, branche les agents sur le local et installe le hook anti-secrets —
+tout affiché en direct.
 
 ```text
 $ bash install.sh
